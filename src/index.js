@@ -47,8 +47,8 @@ function displayWeather(forecast, locationName) {
       <img src="https://raw.githubusercontent.com/visualcrossing/WeatherIcons/main/PNG/4th Set - Color/${day.icon}.png" alt="${day.condition}" class="icon">
       <p><strong>${day.condition}</strong></p>
       <p>${day.description}</p>
-      <p>🌡️ High: ${day.maxTemp}°C</p>
-      <p>🌡️ Low: ${day.minTemp}°C</p>
+      <p>🌡️ High: ${day.maxTemp}°F</p>
+      <p>🌡️ Low: ${day.minTemp}°F</p>
     `;
     cardGrid.appendChild(card);
   });
